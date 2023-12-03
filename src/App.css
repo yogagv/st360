@@ -1,0 +1,141 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.img-fluid{
+  width: 241px;
+  height: 30px;
+}
+
+.nav-link active
+{
+  color: #0fadd5 !important;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+ul.slimmenu li>ul {
+
+  font-family: inherit;
+    font-size: 1rem;
+    line-height: 1.6;
+
+
+    margin: 0px 0 68px;
+    padding: 0px;
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.actives{
+   font-size: medium;
+   color: white;
+   padding-bottom: 18px;
+   font-size: 16px;
+}
+
+.actives1{
+  font-size: medium;
+  color: white;
+  padding-bottom: 3px;
+  font-size: 14px;
+}
+
+.actives2{
+  font-size: medium;
+  color: white;
+  font-size: 15px;
+  padding-top: 15px;
+}
+
+.row.after{
+    content: "";
+    clear: both;
+}
+
+#slicker{
+  padding-top: 40px;
+  padding-left: 50px;
+  color: #282c34;
+  align-items: center;
+  box-shadow: 10px 20px 30px #dfdedf inset;
+}
+
+#ins{
+  background: -webkit-linear-gradient(90deg, #d61c84, #790947, #00d4ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#sol{
+  color: white;
+  font-weight: bold;
+  font-size: 80px;
+}
+
+#slp{
+  justify-items:flex-end;
+}
+
+.contact{
+  font-weight: bold;
+  padding-bottom: -20px;
+  padding-top: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.con1{
+  font-style: italic;
+  font-weight: bold;
+  padding-bottom: -20px;
+  padding-top: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.call{
+  font-weight: bold;
+  color: white;
+  font-size: 19px;
+}
+
