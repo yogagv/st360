@@ -153,7 +153,7 @@ const Navbar = () => {
                 </li>
             <li>
                 <NavLink className="dropdown-item" to= "/contact" style={{background: 'linear-gradient(to right, #d61c84, #790947, #00d4ff)', color:"white", fontWeight:"bold", fontSize:"12px"}}>
-                    LOCATIONS
+                    REACH US
                     </NavLink>
     </li>                
           </ul>

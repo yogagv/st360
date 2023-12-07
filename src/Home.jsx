@@ -68,7 +68,7 @@ const Home = () => {
     ]
   };
     return(
-      <>
+      <div>
         <section id="slider">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
@@ -79,7 +79,7 @@ const Home = () => {
   <div className="carousel-inner">
     <div className="carousel-item active">
       <img src={web} class="d-block w-100" alt=""/>
-      <div className="carousel-caption" style={{fontWeight:"bold", fontSize:"55px", textAlign:"center"}} >
+      <div className="carousel-caption" style={{fontWeight:"bold", fontSize:"55px", textAlign:"center"}}>
         <h2 id="sol"> Managed IT Services</h2>
         <span>
       <NavLink className="navbar-brand" to="/"> 
@@ -91,7 +91,7 @@ const Home = () => {
     <div class="carousel-item">
       <img src={web15} class="d-block w-100" alt=""/>
       <div class="carousel-caption" style={{fontWeight:"bold", fontSize:"55px", textAlign:"center"}}>
-        <h2 id="sol">Digital Transformation</h2>
+        <h2 id="sol" style={{paddingLeft:"130px", paddingTop:"20px"}}>Digital Transformation</h2>
         <span>
       <NavLink className="navbar-brand" to="/"> 
       <button type="button" className="btn btn-success" style={{background: 'linear-gradient(to right, #d61c84, #790947, #00d4ff)', fontWeight:"bold", border:"none", borderradius: "30px", padding: "14px"}}>KNOW MORE</button>
@@ -413,7 +413,7 @@ const Home = () => {
 </div>
 </section>
 </div>
-<div id="linear" style={{paddingTop:"16px"}}>
+<div id="linear" style={{paddingTop:"0.8px"}}>
 <section id="con" style={{background: 'linear-gradient(to right, #d61c84, #790947, #00d4ff)'}}>
 <div className="service-slider" style={{width:"1349px", height:"460px"}}>
 <div className="container-fluid">
@@ -480,7 +480,7 @@ const Home = () => {
     </div>   
 </section>
 </div>
-</>
+</div>
   );
 };
 

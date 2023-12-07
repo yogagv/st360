@@ -1,6 +1,6 @@
 {
   "name": "pro",
-  "homepage": "https://yogagv.github.io/sectec360",
+  "homepage": "http://yogagv.github.io/sectec360",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,6 +13,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.2",
+    "gh-pages": "^6.1.0",
     "i18next": "^23.7.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -24,13 +25,12 @@
     "slick-carousel": "^1.8.1"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-
   },
   "eslintConfig": {
     "extends": [
