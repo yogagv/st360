@@ -6,7 +6,7 @@ import web from "../src/Images/Newlogo.png";
 
 const Navbar = () => {
   return (
-    <div>
+    <div style={{display: "flex"}}>
     <div className="container-fluid nav_bg">
       <div className='row' >
       <nav className="navbar navbar fixed-top navbar-expand-sm navbar-light bg-light">
