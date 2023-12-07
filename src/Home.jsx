@@ -68,7 +68,7 @@ const Home = () => {
     ]
   };
     return(
-      <div style={{display:"flex"}}>
+      <div style={{overflowX:"hidden", overflowY:"hidden"}}>
         <section id="slider">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
